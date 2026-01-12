@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+<link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+  <!-- Back Button -->
+<a class="back" href="./home.html">
+  <img class="back__icon" src="../images/back.png" alt="Back">
+</a>
+
+<div class="container">
+  <div class="login-box">
+    <h2>LOGIN</h2>
+    <form id="loginForm">
+      <div class="form-group">
+        <label>EMAIL ADDRESS</label>
+        <input type="email" name="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <label>PASSWORD</label>
+        <input type="password" name="password" placeholder="Enter your password" required>
+      </div>
+      <button type="submit" class="login-btn">LOGIN</button>
+    </form>
+    <div class="register-link">
+      Don’t have an account? <a href="../view/register.php">Register</a>
+    </div>
+  </div>
+</div>
+<script src="../js/login.js"></script>
+</body>
+</html>
