@@ -1,0 +1,116 @@
+/* Full-page background from link */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url("https://source.unsplash.com/1600x900/?education,classroom")
+              center center / cover no-repeat;
+  min-height: 100vh;
+}
+
+/* Sidebar nav styles */
+.nav a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 12px;
+  border-radius: 10px;
+  color: #415064;
+}
+.nav a:hover { background: #eef2f7; }
+.nav a.active { background: #e9f9f3; color: #0a7c60; }
+
+/* Layout basics */
+.shell {
+  display: flex;
+  gap: 16px;
+  min-height: 100vh;
+  /* removed background overlay so image shows through */
+}
+.sidebar { width: 200px; background: rgba(255,255,255,0.85); }
+.main { flex: 1; background: rgba(255,255,255,0.85); }
+.profile { width: 220px; background: rgba(255,255,255,0.85); }
+
+/* Brand / Logo — small */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px;
+}
+.blob {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #0a7c60;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 1;
+}
+.brand-text strong {
+  font-size: 12px;
+}
+
+/* Upcoming batches */
+.upcoming {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 12px;
+}
+.badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 10px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background: #fff;
+}
+.badge img { width: 18px; height: 18px; }
+
+/* Courses grid */
+.section-title { padding: 8px 12px; }
+.courses {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 12px;
+  padding: 0 12px 12px;
+}
+.course {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background: #fff;
+}
+.course img { width: 22px; height: 22px; }
+
+/* Footer */
+.foot {
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+  color: #555;
+}
+
+/* Profile card */
+.profile .card {
+  margin: 16px;
+  padding: 16px;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  text-align: center;
+}
+.avatar img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.name { font-weight: bold; margin-top: 8px; }
+.welcome { font-size: 12px; color: #666; margin-top: 4px; }
