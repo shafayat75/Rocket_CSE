@@ -2,7 +2,7 @@
 // view/teacher_portal.php
 session_start();
 
-//  Teacher login check (matches php/login.php)
+// ✅ Teacher login check (matches php/login.php)
 if (($_SESSION['user_role'] ?? '') !== 'teacher') {
   header("Location: login.html");
   exit;
@@ -41,6 +41,15 @@ $current = basename($_SERVER['SCRIPT_NAME']);
         <a href="upload_notes.php"   class="<?php echo ($current==='upload_notes.php') ? 'active' : ''; ?>">Upload Notes</a>
         <a href="upload_video.php"   class="<?php echo ($current==='upload_video.php') ? 'active' : ''; ?>">Upload Video</a>
         <a href="upload_quiz.php"    class="<?php echo ($current==='upload_quiz.php') ? 'active' : ''; ?>">Quizzes</a>
+        <a href="teacher_quiz_results.php" class="<?php echo ($current==='teacher_quiz_results.php') ? 'active' : ''; ?>">
+  Quiz Results
+</a>
+
+        <a href="teacher_create_quiz.php"
+   class="<?php echo ($current==='teacher_create_quiz.php') ? 'active' : ''; ?>">
+   Create Quiz
+</a>
+
         <a href="teacher_upload_marks.php" class="<?php echo ($current==='teacher_upload_marks.php') ? 'active' : ''; ?>">Upload Marks</a>
 
         <a href="teacher_my_account.php" class="<?php echo ($current==='teacher_my_account.php') ? 'active' : ''; ?>">My Account</a>
