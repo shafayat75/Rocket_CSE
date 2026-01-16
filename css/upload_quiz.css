@@ -1,0 +1,40 @@
+/* Styles specific to the quiz upload page */
+
+.nav a { text-decoration:none; display:block; padding:10px 12px; border-radius:10px; color:#415064 }
+.nav a:hover { background:#eef2f7 }
+.nav a.active { background:#e9f9f3; color:#0a7c60 }
+
+.panel { background:#fff; border:1px solid #e6e8ee; border-radius:16px; padding:18px }
+.row { display:flex; gap:12px; flex-wrap:wrap; align-items:center; margin:10px 0 }
+
+select, input, textarea {
+  border:1px solid #d5dbe6;
+  border-radius:10px;
+  padding:10px 12px;
+  background:#f8fafc;
+  font:inherit;
+}
+textarea { width:100%; min-height:120px }
+
+.uploader {
+  background:#fff;
+  border:1px dashed #cfd6e2;
+  border-radius:16px;
+  padding:18px;
+  text-align:center;
+  margin-top:8px;
+}
+
+.btn {
+  padding:10px 14px;
+  border-radius:10px;
+  border:1px solid #d5dbe6;
+  background:#f4f7fb;
+  cursor:pointer;
+  color:#415064;
+}
+.btn:hover { background:#eef2f7 }
+
+.msg { margin:10px 0; padding:10px 12px; border-radius:10px }
+.ok { background:#ecfdf5; border:1px solid #c7f0df; color:#0b6346 }
+.err { background:#fff1f1; border:1px solid #f3c7c7; color:#7f1d1d }

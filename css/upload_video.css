@@ -1,0 +1,27 @@
+/* Upload video page specific styles */
+
+.uploader {
+  background:#fff;
+  border:1px dashed #285096;
+  border-radius:16px;
+  padding:22px;
+  text-align:center;
+}
+.uploader p { margin:6px 0; color:#52627a; }
+
+.uploader .btn {
+  margin-top:10px;
+  padding:10px 14px;
+  border-radius:10px;
+  border:1px solid #5b7097;
+  background:#f4f7fb;
+  cursor:pointer;
+  color:#415064;
+}
+.uploader .btn:hover { background:#eef2f7; }
+
+.file-chosen { margin-top:10px; color:#415064; font-size:14px; }
+
+.msg { margin:10px 0; padding:10px 12px; border-radius:10px; }
+.msg.ok { background:#ecfdf5; border:1px solid #c7f0df; color:#0b6346; }
+.msg.error { background:#fff1f1; border:1px solid #f3c7c7; color:#7f1d1d; }
