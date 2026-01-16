@@ -1,0 +1,117 @@
+/* Background */
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background: url("../images/register.svg") no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* Account Container */
+.account-container {
+  width: 100%;
+  max-width: 500px;
+  background: rgba(255,255,255,0.95);
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.account-container h1 {
+  margin-bottom: 1.5rem;
+  color: #222;
+}
+
+/* Forms */
+form {
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* Photo Box */
+.photo-box {
+  width: 150px;
+  height: 150px;
+  border: 2px dashed #ccc;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  overflow: hidden;
+  background: #f9f9f9;
+}
+
+.photo-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Inputs */
+.form-group {
+  margin-bottom: 1.2rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.4rem;
+  color: #333;
+  font-weight: 500;
+}
+
+input[type="file"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+.update-btn {
+  width: 100%;
+  padding: 0.8rem;
+  background: #007bff;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-top: 0.5rem;
+}
+
+.update-btn:hover {
+  background: #0056b3;
+}
+
+/* Back Button */
+.back {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.back__icon {
+  width: 32px;
+  height: 32px;
+}
+
+/* Error and Success Code */
+.error {
+  color: red;
+  margin-top: 10px;
+}
+.success {
+  color: green;
+  margin-top: 10px;
+}
