@@ -1,0 +1,110 @@
+/* Base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #000;
+  background: #fefaf6;
+}
+
+/* Header */
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 16px 32px;
+  background: transparent;
+  z-index: 1000;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+.nav__link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav__link:hover {
+  color: #6a0dad;
+}
+
+/* Hero */
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 120px;
+  background: url("../images/homepage.svg") center top / cover no-repeat;
+  position: relative;
+}
+
+.hero__content {
+  max-width: 500px;
+}
+
+.hero__content h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.hero__content .highlight {
+  color: #7b2ff7;
+}
+
+.hero__content .subtext {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+/* Button */
+.btn-register {
+  display: inline-block;
+  padding: 12px 32px;
+  background: #c00;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn-register:hover {
+  background: #a00;
+}
+
+
+/* Contact */
+.contact {
+  position: absolute;
+  bottom: 40px;
+  left: 120px;
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+.email {
+  font-weight: bold;
+  color: #000;
+}

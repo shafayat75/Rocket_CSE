@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quizzes</title>
+  <link rel="stylesheet" href="../css/quizzes.css">
+</head>
+<body>
+    <!-- Back Button -->
+  <a class="back" href="../view/student_portal.php">
+    <img class="back__icon" src="../images/back.png" alt="Back">
+  </a>
+
+  <div class="container">
+    <h1>Quiz Form</h1>
+
+    <form action="../php/quizzes.php" method="POST">
+      <!-- HTML Quiz -->
+      <section class="quiz-section">
+        <h2>HTML Quiz</h2>
+        <ol>
+          <li>
+            What does HTML stand for?<br>
+            <div class="options">
+              <label><input type="radio" name="html1" value="A"> Hyper Text Markup Language</label>
+              <label><input type="radio" name="html1" value="B"> Home Tool Markup Language</label>
+              <label><input type="radio" name="html1" value="C"> Hyperlinks and Text Markup Language</label>
+            </div>
+          </li>
+          <li>
+            Correct HTML element for the largest heading?<br>
+            <div class="options">
+              <label><input type="radio" name="html2" value="A"> &lt;h1&gt;</label>
+              <label><input type="radio" name="html2" value="B"> &lt;h6&gt;</label>
+              <label><input type="radio" name="html2" value="C"> &lt;heading&gt;</label>
+            </div>
+          </li>
+          <li>
+            Correct HTML for inserting a line break?<br>
+            <div class="options">
+              <label><input type="radio" name="html3" value="A"> &lt;br&gt;</label>
+              <label><input type="radio" name="html3" value="B"> &lt;lb&gt;</label>
+              <label><input type="radio" name="html3" value="C"> &lt;break&gt;</label>
+            </div>
+          </li>
+          <li>
+            Which attribute specifies alternate text for an image?<br>
+            <div class="options">
+              <label><input type="radio" name="html4" value="A"> alt</label>
+              <label><input type="radio" name="html4" value="B"> title</label>
+              <label><input type="radio" name="html4" value="C"> src</label>
+            </div>
+          </li>
+          <li>
+            Which HTML tag defines a hyperlink?<br>
+            <div class="options">
+              <label><input type="radio" name="html5" value="A"> &lt;a&gt;</label>
+              <label><input type="radio" name="html5" value="B"> &lt;link&gt;</label>
+              <label><input type="radio" name="html5" value="C"> &lt;href&gt;</label>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <!-- CSS Quiz -->
+      <section class="quiz-section">
+        <h2>CSS Quiz</h2>
+        <ol>
+          <li>
+            What does CSS stand for?<br>
+            <div class="options">
+              <label><input type="radio" name="css1" value="A"> Cascading Style Sheets</label>
+              <label><input type="radio" name="css1" value="B"> Computer Style Sheets</label>
+              <label><input type="radio" name="css1" value="C"> Creative Style System</label>
+            </div>
+          </li>
+          <li>
+            Which property changes text color?<br>
+            <div class="options">
+              <label><input type="radio" name="css2" value="A"> color</label>
+              <label><input type="radio" name="css2" value="B"> font-color</label>
+              <label><input type="radio" name="css2" value="C"> text-color</label>
+            </div>
+          </li>
+          <li>
+            How do you insert a comment in CSS?<br>
+            <div class="options">
+              <label><input type="radio" name="css3" value="A"> /* comment */</label>
+              <label><input type="radio" name="css3" value="B"> // comment</label>
+              <label><input type="radio" name="css3" value="C"> # comment</label>
+            </div>
+          </li>
+          <li>
+            Which property controls text size?<br>
+            <div class="options">
+              <label><input type="radio" name="css4" value="A"> font-size</label>
+              <label><input type="radio" name="css4" value="B"> text-size</label>
+              <label><input type="radio" name="css4" value="C"> size</label>
+            </div>
+          </li>
+          <li>
+            Correct CSS syntax?<br>
+            <div class="options">
+              <label><input type="radio" name="css5" value="A"> body {color: black;}</label>
+              <label><input type="radio" name="css5" value="B"> {body:color=black;}</label>
+              <label><input type="radio" name="css5" value="C"> body:color=black;</label>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <!-- PHP Quiz -->
+      <section class="quiz-section">
+        <h2>PHP Quiz</h2>
+        <ol>
+          <li>
+            What does PHP stand for?<br>
+            <div class="options">
+              <label><input type="radio" name="php1" value="A"> PHP: Hypertext Preprocessor</label>
+              <label><input type="radio" name="php1" value="B"> Personal Home Page</label>
+              <label><input type="radio" name="php1" value="C"> Private Hosting Platform</label>
+            </div>
+          </li>
+          <li>
+            Which symbol is used for variables in PHP?<br>
+            <div class="options">
+              <label><input type="radio" name="php2" value="A"> $</label>
+              <label><input type="radio" name="php2" value="B"> #</label>
+              <label><input type="radio" name="php2" value="C"> @</label>
+            </div>
+          </li>
+          <li>
+            Which function outputs text?<br>
+            <div class="options">
+              <label><input type="radio" name="php3" value="A"> echo</label>
+              <label><input type="radio" name="php3" value="B"> print</label>
+              <label><input type="radio" name="php3" value="C"> Both</label>
+            </div>
+          </li>
+          <li>
+            Which extension do PHP files have?<br>
+            <div class="options">
+              <label><input type="radio" name="php4" value="A"> .php</label>
+              <label><input type="radio" name="php4" value="B"> .html</label>
+              <label><input type="radio" name="php4" value="C"> .ph</label>
+            </div>
+          </li>
+          <li>
+            Which superglobal contains form data?<br>
+            <div class="options">
+              <label><input type="radio" name="php5" value="A"> $_POST</label>
+              <label><input type="radio" name="php5" value="B"> $_FORM</label>
+              <label><input type="radio" name="php5" value="C"> $_GETPOST</label>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <!-- JS Quiz -->
+      <section class="quiz-section">
+        <h2>JavaScript Quiz</h2>
+        <ol>
+          <li>
+            Inside which HTML element do we put JavaScript?<br>
+            <div class="options">
+              <label><input type="radio" name="js1" value="A"> &lt;script&gt;</label>
+              <label><input type="radio" name="js1" value="B"> &lt;javascript&gt;</label>
+              <label><input type="radio" name="js1" value="C"> &lt;js&gt;</label>
+            </div>
+          </li>
+          <li>
+            How do you create a function in JS?<br>
+            <div class="options">
+              <label><input type="radio" name="js2" value="A"> function myFunc()</label>
+              <label><input type="radio" name="js2" value="B"> def myFunc()</label>
+              <label><input type="radio" name="js2" value="C"> func myFunc()</label>
+            </div>
+          </li>
+          <li>
+            How do you write "Hello World" in JS alert?<br>
+            <div class="options">
+              <label><input type="radio" name="js3" value="A"> alert("Hello World");</label>
+              <label><input type="radio" name="js3" value="B"> msg("Hello World");</label>
+              <label><input type="radio" name="js3" value="C"> console.log("Hello World");</label>
+            </div>
+          </li>
+          <li>
+            How do you write an if statement?<br>
+            <div class="options">
+              <label><input type="radio" name="js4" value="A"> if (x &gt; y) { }</label>
+              <label><input type="radio" name="js4" value="B"> if x &gt; y { }</label>
+              <label><input type="radio" name="js4" value="C"> if {x &gt; y}</label>
+            </div>
+          </li>
+          <li>
+            Which symbol is used for comments in JS?<br>
+            <div class="options">
+              <label><input type="radio" name="js5" value="A"> // comment</label>
+              <label><input type="radio" name="js5" value="B"> # comment</label>
+              <label><input type="radio" name="js5" value="C"> &lt;!-- comment --&gt;</label>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <!-- একটাই সাবমিট বাটন -->
+      <button type="submit" class="submit-btn">Submit All Quizzes</button>
+    </form>
+  </div>
+</body>
+</html>

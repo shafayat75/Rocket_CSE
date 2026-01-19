@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  height: 100vh;
+
+  /* Full-page background */
+  background: url("../images/register.svg") center top / 100% auto no-repeat;
+  background-color: #f5f3f2; /* fallback color */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Back Button */
+.back {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.back__icon {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.register-container {
+  background: rgb(238, 236, 233); /* light box background */
+  padding: 30px 25px;
+  border-radius: 15px;
+  width: 320px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.register-container h2 {
+  margin: 0 0 20px;
+  font-size: 22px;
+  color: #7a2050;
+  font-weight: bold;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 13px;
+  font-weight: bold;
+  color: #7a2050;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #b5688a;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  background: #fff; /* white input field */
+}
+
+.form-group input:focus {
+  border-color: #7a2050;
+}
+
+.btn-submit {
+  width: 100%;
+  background: #7a2050;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.btn-submit:hover {
+  background: #5e163d;
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 12px;
+  font-size: 13px;
+  color: #555;
+}
+
+.login-link a {
+  color: #7a2050;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
